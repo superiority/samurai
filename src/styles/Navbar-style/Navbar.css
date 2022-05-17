@@ -1,0 +1,10 @@
+.nav {
+    background-color: #A7C5DB;
+    grid-area: navbar;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
