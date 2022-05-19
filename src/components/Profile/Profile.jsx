@@ -1,7 +1,8 @@
 import React from 'react';
 import "../../styles/Profile-style/Profile.css";
+import MyPosts from "./MyPosts";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div>
         <div className="content">
@@ -10,18 +11,7 @@ const Profile = () => {
             <div>
                 <img className="image-profile2" src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg" alt="img"/>
             </div>
-            <div>
-                Мои посты
-            </div>
-            <div>
-                Создать пост
-            </div>
-            <div>
-                1
-            </div>
-            <div>
-                2
-            </div>
+            <MyPosts />
         </div>
     );
 };
