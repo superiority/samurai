@@ -1,0 +1,16 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs-items {
+
+}
+
+.dialog {
+    color: #0C0C0C;
+}
+
+.messages {
+
+}

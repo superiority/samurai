@@ -8,3 +8,7 @@
     color: #fff;
     font-size: 25px;
 }
+
+.link.active {
+    color: red;
+}
