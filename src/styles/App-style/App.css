@@ -3,7 +3,8 @@ html {
 }
 
 .app-wrapper {
-    width: 1200px;
+    max-width: 1800px;
+    min-height: 920px;
     margin: 0 auto;
     display: grid;
     grid-template-areas:
@@ -11,6 +12,6 @@ html {
     "navbar content"
     "footer footer";
     grid-template-rows: 60px 1fr;
-    grid-template-columns: 4fr 8fr;
+    grid-template-columns: 1fr 11fr;
     grid-gap: 10px;
 }

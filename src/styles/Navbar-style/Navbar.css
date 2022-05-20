@@ -1,14 +1,13 @@
 .nav {
-    background-color: #A7C5DB;
     grid-area: navbar;
 }
 
 .link {
     text-decoration: none;
-    color: #fff;
-    font-size: 25px;
+    color: #000;
+    font-size: 20px;
 }
 
-.link.active {
-    color: red;
+.link:hover {
+    color: #5A87BB;
 }
