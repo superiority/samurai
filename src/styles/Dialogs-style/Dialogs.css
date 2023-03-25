@@ -1,0 +1,46 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    background-color: #fff;
+}
+
+.dialogs-items {
+    width: 200px;
+    display: inline-block;
+    align-items: center;
+    border-color: #EDEEF0;
+    border-style: solid;
+    color: #0C0C0C;
+}
+
+.messages {
+    text-decoration: none;
+    color: #000;
+    border-color: #EDEEF0;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.link__dialogs-img {
+    padding-right: 10px;
+}
+
+.profile-img {
+    width: 46px;
+    border-radius: 100%;
+}
+
+
+.link__dialogs-name {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.link__dialogs-name:hover {
+    background-color: #E5E7EB;
+}

@@ -1,0 +1,36 @@
+.nav {
+    grid-area: navbar;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.link:hover {
+    background-color: #E5E7EB;
+}
+
+/*----------------------------------*/
+
+.friends-elements {
+    margin-top: 150px;
+}
+
+.link__friends {
+    color: #000;
+    font-size: 20px;
+}
+
+.link__friends-img {
+    display: flex;
+}
+
+.friends-img {
+    width: 46px;
+    border-radius: 100%;
+}
